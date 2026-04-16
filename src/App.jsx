@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect } from "react";
 
 const SUPABASE_URL = "https://gwxazunhurdxpocamcig.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzAwMDAwMDAwLCJleHAiOjk5OTk5OTk5OTl9.fhMBeQ6PU0DwQ5wC6G8pIlRSWJ7PgIR_NB4GblcN6ds";
+const SUPABASE_KEY = "sb_publishable_1j5POtZU8pt2y3JO_SGDpg_hdm-AVoD
+";
 
 async function sbFetch(path, options = {}) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1${path}`, {
